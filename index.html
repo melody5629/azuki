@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김지민-azuki</title>
+    <style>
+        body {background:url("./images/bg.svg")no-repeat center/cover;}
+        .azuki .mobile {position: absolute; top: 450px; left: 50%;
+        transform: translate(-50%, -50%); z-index: 2;}
+        .azuki .mobile img {width: 300px;}
+        .azuki .gif {position: absolute;
+        top: 450px; left: 50%; transform: translate(-50%, -50%); z-index: 1;}
+        .azuki .gif img {width: 240px;}
+
+    </style>
+</head>
+<body>
+    <!-- .azuki>.mobile+.gif>a>img -->
+    <div class="azuki">
+        <div class="mobile">
+            <a href="https://opensea.io/collection/azuki" target="_blank">
+             <img src="./images/mobile.png" alt="모바일목업">
+            </a>
+        </div>
+        <div class="gif">
+            <img src="./images/kjm.gif" alt="아즈키애니메이션"></div>
+    </div>
+</body>
+</html>
